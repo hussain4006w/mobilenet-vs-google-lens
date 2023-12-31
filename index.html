@@ -1,0 +1,120 @@
+<html>
+  <head>
+      <title>Google lens vs Mobilenet</title>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+        <h1 style="color:red;"><u>Case Study between Google lens and Mobilenet</u></h1><br>
+     <h3>Google Lens <img src="google_lens_img.png" width="50px" height="50px">
+        <h3 style="color:red;">vs</h3>
+        <h3 class="btn btn-link">Mobilenet</h3> <br><br>
+     </h3>
+     <div class="col-xs-12" id="div">
+         <h5 class="col-sm-4 col-xs-12">
+             <b>Test Image - </b>
+             <img src="laptop.jpeg" class="img-responsive">
+         </h5>
+         <h5 class="col-sm-4 col-xs-12 btn btn-default">
+             Output on <b>GOOGLE LENS</b>
+             <span id="google_lens_output"></span>
+         </h5>
+         <h5 class="col-sm-4 col-xs-12 btn btn-default">
+            Output on <b>MOBILENET MODEL</b>
+            <span id="mobilenet_model_output"></span>
+        </h5>
+        <div id="mini_result" class="col-xs-12">
+            <h4>Results - </h4>  <hr>
+            <h4></h4>
+        </div>
+     </div>
+     <br>
+     <div class="col-xs-12" id="div">
+        <h5 class="col-sm-4 col-xs-12">
+            <b>Test Image - </b>
+            <img src="charger.jpeg" class="img-responsive">
+        </h5>
+        <h5 class="col-sm-4 col-xs-12 btn btn-default">
+            Output on <b>GOOGLE LENS</b>
+            <span id="google_lens_output"></span>
+        </h5>
+        <h5 class="col-sm-4 col-xs-12 btn btn-default">
+           Output on <b>MOBILENET MODEL</b>
+           <span id="mobilenet_model_output"></span>
+       </h5>
+       <div id="mini_result" class="col-xs-12">
+           <h4>Results - </h4>  <hr>
+           <h4></h4>
+       </div>
+    </div>
+    <br>
+    <div class="col-xs-12" id="div">
+        <h5 class="col-sm-4 col-xs-12">
+            <b>Test Image - </b>
+            <img src="airpods.jpeg" class="img-responsive">
+        </h5>
+        <h5 class="col-sm-4 col-xs-12 btn btn-default">
+            Output on <b>GOOGLE LENS</b>
+            <span id="google_lens_output"></span>
+        </h5>
+        <h5 class="col-sm-4 col-xs-12 btn btn-default">
+           Output on <b>MOBILENET MODEL</b>
+           <span id="mobilenet_model_output"></span>
+       </h5>
+       <div id="mini_result" class="col-xs-12">
+           <h4>Results - </h4>  <hr>
+           <h4></h4>
+       </div>
+    </div>
+    <br>
+    <div class="col-xs-12" id="div">
+        <h5 class="col-sm-4 col-xs-12">
+            <b>Test Image - </b>
+            <img src="fan remotea.jpeg" class="img-responsive">
+        </h5>
+        <h5 class="col-sm-4 col-xs-12 btn btn-default">
+            Output on <b>GOOGLE LENS</b>
+            <span id="google_lens_output"></span>
+        </h5>
+        <h5 class="col-sm-4 col-xs-12 btn btn-default">
+           Output on <b>MOBILENET MODEL</b>
+           <span id="mobilenet_model_output"></span>
+       </h5>
+       <div id="mini_result" class="col-xs-12">
+           <h4>Results - </h4>  <hr>
+           <h4></h4>
+       </div>
+    </div>
+    <br>
+    <div class="col-xs-12" id="div">
+        <h5 class="col-sm-4 col-xs-12">
+            <b>Test Image - </b>
+            <img src="phone.jpeg"class ="img-responsive">
+        </h5>
+        <h5 class="col-sm-4 col-xs-12 btn btn-default">
+            Output on <b>GOOGLE LENS</b>
+            <span id="google_lens_output"></span>
+        </h5>
+        <h5 class="col-sm-4 col-xs-12 btn btn-default">
+           Output on <b>MOBILENET MODEL</b>
+           <span id="mobilenet_model_output"></span>
+       </h5>
+       <div id="mini_result" class="col-xs-12">
+           <h4>Results - </h4>  <hr>
+           <h4></h4>
+       </div>
+    </div>
+    <br>
+    <div class="copy_right_footer">
+        Developed by - Hussain
+    </div>
+  </body>
+</html>
